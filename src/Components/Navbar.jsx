@@ -9,34 +9,34 @@ const Navbar = () => {
   return (
    <>
    <nav>
-    <div className='flex  px-10 gap-270  mt-5 items-center '>
+    <div className='flex  px-10 justify-center gap-190 md:gap-270  mt-5 items-center '>
       <p className=' text-xl '>Gemini</p>
       <img className='w-10 h-10 rounded-full' src="logo.png" alt="" />
      
     </div>
-    <div className='text-6xl font-bold text-blue-400 ml-50 mt-25'>
+    <div className='text-6xl font-bold text-blue-400 ml-35 md:ml-50 mt-25'>
        <p>Hello, Dev.</p>
        <p className='mt-4 text-gray-400'>How can I help you today?</p>
     </div>
-    <div className='flex justify-center gap-6 mt-10'>
-      <div className='h-50 rounded-2xl w-50 bg-gray-200 flex flex-col items-center hover:bg-gray-300 '>
-        <p className='mt-5'>Suggest beautiful <br /> places to see on <br /> an upcoming road trip</p>
-        <FaMessage className='mt-15 ml-30' />
+    <div className='flex flex-col md:flex-row items-center md:justify-center  gap-6 mt-10'>
+      <div className='h-50 rounded-2xl w-170  md:w-50 bg-gray-200 flex flex-col items-center hover:bg-gray-300 '>
+        <p className='mt-13 md:mt-5'>Suggest beautiful <br /> places to see on <br /> an upcoming road trip</p>
+        <FaMessage className='mt-4 md:mt-15  ml-100 md:ml-30' />
 
       </div>
-      <div className='h-50 rounded-2xl w-50 bg-gray-200 flex flex-col items-center hover:bg-gray-300 '>
-        <p className='mt-5'>Suggest beautiful <br /> places to see on <br /> an upcoming road trip</p>
-        <FaMessage className='mt-15 ml-30' />
+      <div className='h-50 rounded-2xl w-170 md:w-50 bg-gray-200 flex flex-col items-center hover:bg-gray-300 '>
+        <p className='mt-13 md:mt-5'>Suggest beautiful <br /> places to see on <br /> an upcoming road trip</p>
+        <FaMessage className='mt-4 md:mt-15  ml-100 md:ml-30' />
 
       </div>
-      <div className='h-50 rounded-2xl w-50 bg-gray-200 flex flex-col items-center hover:bg-gray-300 '>
-        <p className='mt-5'>Suggest beautiful <br /> places to see on <br /> an upcoming road trip</p>
-        <FaMessage className='mt-15 ml-30' />
+      <div className='h-50 rounded-2xl w-170 md:w-50 bg-gray-200 flex flex-col items-center hover:bg-gray-300 '>
+        <p className='mt-13 md:mt-5'>Suggest beautiful <br /> places to see on <br /> an upcoming road trip</p>
+        <FaMessage className='mt-4 md:mt-15  ml-100  md:ml-30' />
 
       </div>
-      <div className='h-50 rounded-2xl w-50 bg-gray-200 flex flex-col items-center hover:bg-gray-300 '>
-        <p className='mt-5'>Suggest beautiful <br /> places to see on <br /> an upcoming road trip</p>
-        <FaMessage className='mt-15 ml-30' />
+      <div className='h-50 rounded-2xl w-170 md:w-50 bg-gray-200 flex flex-col items-center hover:bg-gray-300 '>
+        <p className='mt-13 md:mt-5'>Suggest beautiful <br /> places to see on <br /> an upcoming road trip</p>
+        <FaMessage className='mt-4 md:mt-15 ml-100 md:ml-30' />
 
       </div>
     </div>
